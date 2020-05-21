@@ -6,3 +6,4 @@ pkb_per_capita = [112622, 81686, 76620, 66780, 59105, 56915, 54984, 54564, 54474
 figure
 bar(pkb_per_capita)
 set(gca, 'xticklabel', countries)
+ylabel("PKB per capita")

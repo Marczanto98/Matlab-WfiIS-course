@@ -9,6 +9,7 @@ for n = 1:numel(pol_pkb)
     tmp = [str2num(pol_pkb(n)),str2num(gr_pkb(n))];
     bar(tmp)
     set(gca, 'xticklabel', ["Poland", "Greece"])
+    ylabel("PKB per capita")
     drawnow
     frame = getframe(h);
     im = frame2im(frame);
