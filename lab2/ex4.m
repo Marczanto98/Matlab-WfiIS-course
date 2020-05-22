@@ -4,7 +4,7 @@ gr_pkb = ["0","0","620","700","790","900","1000","1090","1200","1370","1540","17
 
 h = figure;
 axis tight manual 
-filename = 'zad4.gif';
+filename = 'ex4.gif';
 for n = 1:numel(pol_pkb)
     tmp = [str2num(pol_pkb(n)),str2num(gr_pkb(n))];
     bar(tmp)
