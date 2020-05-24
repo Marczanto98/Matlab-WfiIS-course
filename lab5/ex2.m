@@ -4,5 +4,6 @@ clear; clc;
 f = x1^2 + x2^2 - cos(12*x1) - cos(18*x2);
 surf(x1,x2, f)
 
-Min = min(min(f))
+Min = min(min(f));
+disp(sprintf('min = %f', Min))
 

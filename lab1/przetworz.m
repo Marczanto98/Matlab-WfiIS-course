@@ -13,7 +13,7 @@ else
     disp("BLAD")
     return
 end
-
+v
 maks
 minim
 parz
